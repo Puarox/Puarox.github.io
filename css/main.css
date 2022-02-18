@@ -1338,6 +1338,10 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -1630,7 +1634,7 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #f00;
+  color: #708090;
   display: inline-block;
   margin: 0 5px;
 }
