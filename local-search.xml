@@ -8,7 +8,7 @@
     <link href="/2023/10/24/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
     <url>/2023/10/24/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
     
-    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><p>下面是一张像素风格的女孩图像👇<br>这张图片通过b站图床储存在网络位置。<br>！<a href="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg">test_girl_pixel</a><br>！<a href="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg">test_girl_pixel_url</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><p>下面是一张像素风格的女孩图像👇<br>这张图片通过b站图床储存在网络位置。<br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel"><br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel_url"></p>]]></content>
     
     
     
