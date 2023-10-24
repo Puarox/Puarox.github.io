@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>C++ Primer Study Log ①</title>
+    <link href="/2023/10/24/C-Primer-Study-Log-%E2%91%A0/"/>
+    <url>/2023/10/24/C-Primer-Study-Log-%E2%91%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="C-Primer-Plus-Study-Log①"><a href="#C-Primer-Plus-Study-Log①" class="headerlink" title="C++ Primer Plus Study Log①"></a>C++ Primer Plus Study Log①</h1><h4 id="阅读此书的第一次记录"><a href="#阅读此书的第一次记录" class="headerlink" title="阅读此书的第一次记录"></a>阅读此书的第一次记录</h4><p><strong>一、</strong> C++的编译环境<br><strong>二、</strong> C++的简单程序示例</p><blockquote><p>#include&lt;iostream&gt;<br>using namespcae std ;<br>int main(){<br>    int a ;<br>    int b ;<br>    cin &gt;&gt; a &gt;&gt; b ;<br>    cout &lt;&lt; a + b ;<br>    return 0 ;<br>}</p></blockquote>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>First Try</title>
     <link href="/2023/10/24/First-Try/"/>
     <url>/2023/10/24/First-Try/</url>
