@@ -8,7 +8,7 @@
     <link href="/2023/10/24/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
     <url>/2023/10/24/%E4%B8%BB%E9%A2%98%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
     
-    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><p>下面是一张像素风格的女孩图像👇<br>这张图片通过b站图床储存在网络位置。<br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel"><br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel_url"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h1><p>下面是一张像素风格的女孩图像👇<br>这张图片通过Z4A图床储存在网络位置。<br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel"><br><img src="https://www.z4a.net/images/2023/10/24/13301b4473560be89.jpg" alt="test_girl_pixel_url"></p>]]></content>
     
     
     
@@ -17,11 +17,11 @@
   
   
   <entry>
-    <title>C++ Primer Study Log ①</title>
+    <title>C++ Primer Plus Study Log ①</title>
     <link href="/2023/10/24/C-Primer-Study-Log-%E2%91%A0/"/>
     <url>/2023/10/24/C-Primer-Study-Log-%E2%91%A0/</url>
     
-    <content type="html"><![CDATA[<h1 id="C-Primer-Plus-Study-Log①"><a href="#C-Primer-Plus-Study-Log①" class="headerlink" title="C++ Primer Plus Study Log①"></a>C++ Primer Plus Study Log①</h1><h4 id="阅读此书的第一次记录"><a href="#阅读此书的第一次记录" class="headerlink" title="阅读此书的第一次记录"></a>阅读此书的第一次记录</h4><p><strong>一、</strong> C++的编译环境<br><strong>二、</strong> C++的简单程序示例</p><blockquote><p>#include&lt;iostream&gt;<br>using namespcae std ;<br>int main(){<br>    int a ;<br>    int b ;<br>    cin &gt;&gt; a &gt;&gt; b ;<br>    cout &lt;&lt; a + b ;<br>    return 0 ;<br>}</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="C-Primer-Plus-Study-Log①"><a href="#C-Primer-Plus-Study-Log①" class="headerlink" title="C++ Primer Plus Study Log①"></a>C++ Primer Plus Study Log①</h1><h4 id="阅读此书的第一次记录"><a href="#阅读此书的第一次记录" class="headerlink" title="阅读此书的第一次记录"></a>阅读此书的第一次记录</h4><h5 id="一、指针的使用"><a href="#一、指针的使用" class="headerlink" title="一、指针的使用"></a>一、指针的使用</h5><p>注意，在引用’*’之前，一定要赋予指针一个确定的地址，否则将会出现一些不必要的风险。</p><p>指针本身是一种数据类型，它与数组相同，都基于另一种数据类型存在。如：int* pointer 表示指向整型的指针。</p><p>所以，要想赋予指针 pointer 一个地址，需要进行强制类型转换：pointer &#x3D; (int* )0xB8000000 </p>]]></content>
     
     
     
