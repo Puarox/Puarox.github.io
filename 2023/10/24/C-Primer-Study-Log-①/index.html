@@ -24,7 +24,7 @@
 <meta property="og:description" content="C++ Primer Plus Study Log①阅读此书的第一次记录一、指针的使用注意，在引用’*’之前，一定要赋予指针一个确定的地址，否则将会出现一些不必要的风险。 指针本身是一种数据类型，它与数组相同，都基于另一种数据类型存在。如：int* pointer 表示指向整型的指针。 所以，要想赋予指针 pointer 一个地址，需要进行强制类型转换：pointer &#x3D; (int* )">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-24T02:38:58.000Z">
-<meta property="article:modified_time" content="2023-10-24T07:46:32.226Z">
+<meta property="article:modified_time" content="2023-10-25T08:34:29.372Z">
 <meta property="article:author" content="ParoX">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -221,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          197 字
+          514 字
         
       </span>
     
@@ -232,7 +232,7 @@
         
         
         
-          2 分钟
+          5 分钟
         
       </span>
     
@@ -282,7 +282,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：7 小时前
+                    本文最后更新于：2 小时前
                   
                 
               </p>
@@ -293,6 +293,15 @@
                 <h1 id="C-Primer-Plus-Study-Log①"><a href="#C-Primer-Plus-Study-Log①" class="headerlink" title="C++ Primer Plus Study Log①"></a>C++ Primer Plus Study Log①</h1><h4 id="阅读此书的第一次记录"><a href="#阅读此书的第一次记录" class="headerlink" title="阅读此书的第一次记录"></a>阅读此书的第一次记录</h4><h5 id="一、指针的使用"><a href="#一、指针的使用" class="headerlink" title="一、指针的使用"></a>一、指针的使用</h5><p>注意，在引用’*’之前，一定要赋予指针一个确定的地址，否则将会出现一些不必要的风险。</p>
 <p>指针本身是一种数据类型，它与数组相同，都基于另一种数据类型存在。如：int* pointer 表示指向整型的指针。</p>
 <p>所以，要想赋予指针 pointer 一个地址，需要进行强制类型转换：pointer &#x3D; (int* )0xB8000000 </p>
+<h4 id="二、指针的几个特点"><a href="#二、指针的几个特点" class="headerlink" title="二、指针的几个特点"></a>二、指针的几个特点</h4><ol>
+<li>指针算术：C++允许将指针类型与整数类型相加，根据指针指向的数据类型，”pt+1”意味着”pt + size of data type”，但似乎只用于数组当中。</li>
+<li>对于数组名，它是一种指针，所以存在以下等式：”array &#x3D; &amp;array[0]”;</li>
+<li>基于指针与new关键字，可以定义动态数组：<blockquote>
+<p>int* pointer &#x3D; new int[size] ;<br>delete []pointer ;&#x2F;&#x2F;释放动态内存。<br>之所以称之为动态，是因为该内存是在运行阶段，根据程序规定而分配内存。</p>
+</blockquote>
+</li>
+<li>“<em>“表示解除引用，而对于数组，”array[]”起到同样的效果。<br>有这样的等式：”</em>(array + 3) &#x3D; array[3]”</li>
+</ol>
 
                 
               </div>
