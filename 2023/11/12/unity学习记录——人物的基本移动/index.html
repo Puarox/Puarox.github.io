@@ -23,10 +23,13 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Unity2D人物的基本移动一、学习主要内容 人物左右移动的代码实现 人物跳跃的代码实现 人物动作动画 人物冲刺、下蹲等动作代码实现  二、具体知识点一、人物左右移动的代码实现123456789101112void move()&amp;#123;        Vector2 p &#x3D; transform.position;        movex &#x3D; Input.GetAxisRaw(&quot;Ho">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic2.zhimg.com/80/v2-0eb016b36b367febf1ac609aa5ed8365_1440w.webp">
+<meta property="og:image" content="https://pic3.zhimg.com/80/v2-03468a29051147d2388385ae3423fa1e_1440w.webp">
 <meta property="article:published_time" content="2023-11-12T10:00:07.000Z">
-<meta property="article:modified_time" content="2023-11-12T10:46:02.566Z">
+<meta property="article:modified_time" content="2023-11-12T14:23:05.656Z">
 <meta property="article:author" content="ParoX">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://pic2.zhimg.com/80/v2-0eb016b36b367febf1ac609aa5ed8365_1440w.webp">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
@@ -282,7 +285,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：几秒前
+                    本文最后更新于：1 分钟前
                   
                 
               </p>
@@ -315,7 +318,8 @@
 <li>创建 animation ，调整好合适的速度</li>
 <li>通过animator设置变量，设置transition条件，改变exit time（好像都是零），并在函数中调用。</li>
 </ol>
-<p>[animator]: </p>
+<p><img src="https://pic2.zhimg.com/80/v2-0eb016b36b367febf1ac609aa5ed8365_1440w.webp" srcset="/img/loading.gif" lazyload alt="animator"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-03468a29051147d2388385ae3423fa1e_1440w.webp" srcset="/img/loading.gif" lazyload alt=" variable"></p>
 <p>四、人物冲刺，下蹲的代码实现</p>
 <p>冲刺：</p>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs c#"><span class="hljs-function"><span class="hljs-keyword">private</span> IEnumerator <span class="hljs-title">Dash</span>()</span><br>    &#123;<br>        canDash = <span class="hljs-literal">false</span> ;<br>        isDashing = <span class="hljs-literal">true</span> ;<br>        animator.SetBool(<span class="hljs-string">&quot;dash&quot;</span>,isDashing);<br>        marioRigidbody.gravityScale = <span class="hljs-number">0.1f</span> ;<br>        marioRigidbody.velocity = <span class="hljs-keyword">new</span> Vector2(DashingPower*transform.localScale.x*<span class="hljs-number">1.08f</span>,<span class="hljs-number">0f</span>);<br><br>        <span class="hljs-function"><span class="hljs-keyword">yield</span> <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title">WaitForSeconds</span>(<span class="hljs-params">DashingTime</span>)</span>;<br>        isDashing = <span class="hljs-literal">false</span> ;<br>        animator.SetBool(<span class="hljs-string">&quot;dash&quot;</span>,isDashing);<br>        marioRigidbody.gravityScale = <span class="hljs-number">1f</span> ;<br>        <span class="hljs-function"><span class="hljs-keyword">yield</span> <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title">WaitForSeconds</span>(<span class="hljs-params">DashCoolTime</span>)</span>;<br>        canDash = <span class="hljs-literal">true</span> ;<br>    &#125;<br>    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title">dash</span>()</span>&#123;<br>        <span class="hljs-keyword">if</span>(Input.GetKeyDown(KeyCode.LeftShift))&#123;<br>            StartCoroutine(Dash());<br>            <br>        &#125;<br>    &#125;<br></code></pre></td></tr></table></figure>
@@ -329,7 +333,6 @@
 
 
 <p>最后的演示视频：</p>
-<p>[demo]: </p>
 
                 
               </div>
