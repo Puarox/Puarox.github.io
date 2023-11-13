@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>近期的unity学习计划</title>
+    <link href="/2023/11/13/%E8%BF%91%E6%9C%9F%E7%9A%84unity%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+    <url>/2023/11/13/%E8%BF%91%E6%9C%9F%E7%9A%84unity%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/</url>
+    
+    <content type="html"><![CDATA[<h1 id="近期的unity学习计划与24年Gamejam的目标"><a href="#近期的unity学习计划与24年Gamejam的目标" class="headerlink" title="近期的unity学习计划与24年Gamejam的目标"></a>近期的unity学习计划与24年Gamejam的目标</h1><h2 id="一、24-Gamejam-目标"><a href="#一、24-Gamejam-目标" class="headerlink" title="一、24 Gamejam 目标"></a>一、24 Gamejam 目标</h2><ul><li>使用unity制作出一款完整的，可运行的2D 横版&#x2F;俯视角，动作&#x2F;跑酷 或 2D rpg 游戏</li><li>48小时内，遵循基本的开发流程，尽量使用业界普遍使用的开发工具：<ol><li>通讯：微信</li><li>文档撰写：office</li><li>仓库管理*：gitee svn（尽量）</li><li>版本控制：svn</li><li>AI：GPT4，Midjourney, Nijijourney</li><li>开发软件：unity2022.3.5f1c1</li></ol></li><li>比赛地点：武汉高校或上海</li><li>比赛安排时间：2024.1.6确定团队，中旬开始预定车票酒店。</li><li>12月上旬会组织一些团体活动，有兴趣参赛的可以磨合</li></ul><h2 id="二、学习计划（本月11月）"><a href="#二、学习计划（本月11月）" class="headerlink" title="二、学习计划（本月11月）"></a>二、学习计划（本月11月）</h2><ol><li>完成unity项目：带攻击系统，简单音效，敌人，UI，地图视察滚动，对话框的项目</li><li>通过专题式阅读文档并做笔记，巩固基础知识</li><li>学习gitee svn、svn 的版本控制</li><li>使用gpt辅助制作过程。</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>unity学习记录——人物的基本移动</title>
     <link href="/2023/11/12/unity%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E2%80%94%E2%80%94%E4%BA%BA%E7%89%A9%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A7%BB%E5%8A%A8/"/>
     <url>/2023/11/12/unity%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E2%80%94%E2%80%94%E4%BA%BA%E7%89%A9%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A7%BB%E5%8A%A8/</url>
